@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagos</title>
+    <!-- Links css -->
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/pagos.css">
+</head>
+<body>
+    <!-- Header -->
+    <section class="header">
+        <div class="container-header">
+            <div class="brand">
+                <img src="./images/tarjeta-de-credito.png" alt="Brand">
+                <h2>Payu</h2>
+            </div>
+            <div class="navbar">
+                <nav class="nav">
+                    <ul class="list">
+                        <li class="item">
+                            <a href="http://" class="link">Inicio</a>
+                        </li>
+                        <li class="item">
+                            <a href="http://" class="link">Saldo</a>
+                        </li>
+                        <li class="item">
+                            <a href="http://" class="link">Acerca de nosotros</a>
+                        </li>
+                        <li class="item">
+                            <a href="http://" class="link">Inicia sesion</a>
+                        </li>
+                        <li class="item">
+                            <a href="http://" class="link" id="sign-up">Crea tu cuenta</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <!-- Section forms -->
+    <section class="forms">
+        <div class="container-form">
+            <div class="form1">
+                <form action="" method="post" id="form1">
+                    <label>Informacion personal</label><br><br>
+                    <label for="nombre">Nombre completo</label><br>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre completo"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Email"><br>
+                    <label for="id">C.C</label><br>
+                    <input type="text" name="id" id="id" placeholder="c.c">
+                </form><br>
+                <form action="" method="post" id="form1">
+                    <label>Pagina de infomacion</label><br><br>
+                    <label for="amount">Monto</label><br>
+                    <input type="number" name="amount" id="amount" placeholder="Monto"><br>
+                    <label for="description">Concepto de pago</label><br>
+                    <input type="text" name="description" id="description" placeholder="Concepto de pago"><br>
+                    <label for="site">Sede</label><br>
+                    <input type="text" name="site" id="site" placeholder="Sede">
+                </form>
+            </div>
+            <div class="form2">
+                <h2>Proceso de pago</h2>
+                <img src="./images/tarjeta-de-credito.png" alt="">
+                <form action="" method="post" id="form1">
+                    <label for="m-pagp">Selecciona el medio de pago</label><br>
+                    <select name="" id="">
+                        <option value="javascript">JavaScript</option>
+                        <option value="php">PHP</option>
+                    </select><br>
+                    <label for="n-pago">Numero de tarjeta</label><br>
+                    <input type="number" name="n-pago" id="n-pago" placeholder="Numero de tarjeta"><br>
+                    <label for="f-expiracion">Fecha de expiracion</label><br>
+                    <input type="text" name="f-expiracion" id="f-expiracion" placeholder="Fecha de expiracion"><br>
+                    <label for="n-seguridad">CVV</label><br>
+                    <input type="number" name="n-seguridad" id="n-seguridad" placeholder="CVV"><br>
+                    <input type="checkbox" name="" id="">
+                    <label id="terms">Estoy de acuerdo con los terminos y condiciones</label>
+                    <div class="container-btn">
+                        <input type="submit" value="PAGAR">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
